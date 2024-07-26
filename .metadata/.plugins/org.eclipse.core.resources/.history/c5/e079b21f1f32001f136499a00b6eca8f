@@ -1,0 +1,41 @@
+package com.ClassDemos;
+
+public class Employee {
+
+	private int empid;
+	private String empName;
+	private double basicSalary;
+	private String gender;
+	
+	public void setEmpId(int id)
+	{
+		empid=id;
+	}
+	
+	public int getEmpId()
+	{
+		return empid;
+	}
+	void displayData()
+	{
+		System.out.println("Employee id: "+empid);
+		System.out.println("Employee Name: "+empName);
+		System.out.println("Basic Salary: "+basicSalary);
+		System.out.println("Gender: "+gender);
+	}
+	
+	double calculateSalary()
+	{
+		double da,hra,pf,net;
+		
+		da=basicSalary*0.50;
+		hra=basicSalary*0.20;
+		pf=basicSalary*0.05;
+		net=da+hra-pf;
+		
+		return net;
+	}
+
+	}
+
+

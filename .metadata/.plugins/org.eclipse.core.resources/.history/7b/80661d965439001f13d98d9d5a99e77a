@@ -1,0 +1,10 @@
+package com.Files;
+
+public class D01WriteOnFile {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

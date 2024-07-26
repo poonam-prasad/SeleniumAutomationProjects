@@ -1,0 +1,23 @@
+package com.CollectionsDemo;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class MapDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Map<Integer,String> maps=new HashMap<>();
+		maps.put(1, "Poonam");
+		maps.put(2, "Amit");
+		maps.put(3, "Myra");
+		
+		System.out.println(maps);
+		
+		maps.put(3, "Ahaan");
+		
+		System.out.println(maps);
+	}
+
+}

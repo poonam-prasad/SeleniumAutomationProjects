@@ -1,0 +1,20 @@
+package JavaAssigments;
+
+public class NullPointerExceptionAssignment {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String str=null;
+		
+		if(str.equals("Test"))
+		{
+			System.out.println("They are Same");
+		}
+		else
+		{System.out.println("Not Same");
+
+	}
+
+}
+}

@@ -1,0 +1,7 @@
+package JavaAssigments;
+
+public interface Mammal {
+
+	public void reproduce();
+	public void move();
+}

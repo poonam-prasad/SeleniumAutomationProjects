@@ -1,0 +1,28 @@
+package com.Assignments;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.Select;
+
+public class A04RegistrationForm {
+
+	public static void main(String[] args) {
+		
+		WebDriver driver=new ChromeDriver();
+		driver.manage().window().maximize();
+		driver.get("https://www.tutorialspoint.com/selenium/practice/selenium_automation_practice.php");
+		
+		driver.findElement(By.id("name")).sendKeys("Poonam");
+		driver.findElement(By.id("email")).sendKeys("poonamprasad94@gmail.com");
+		driver.findElement(By.xpath("//div[3]//div[1]//div[1]//div[2]//input[1]")).click();
+		driver.findElement(By.id("mobile")).sendKeys("9711123906");
+		driver.findElement(By.id("dob")).sendKeys("01-01-2010");
+		driver.findElement(By.id("subjects")).sendKeys("Biology");
+		driver.findElement(By.xpath("//input[@id='hobbies']")).click();
+		driver.findElement(By.xpath("//textarea[@id='picture']")).sendKeys("New Delhi");
+		
+	}
+
+}

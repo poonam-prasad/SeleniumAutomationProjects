@@ -1,0 +1,26 @@
+package com.CRM.TestCases;
+
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
+import com.CRM.Pages.HomePage;
+
+public class HomePageTestCase extends BaseClass {
+	
+	
+	
+  @Test (priority=1)
+  public void verifyUrl() {
+	  
+	 
+	 String actURL=hp.getAppURL();
+	 Assert.assertTrue(actURL.contains("crm"),"Test Fail:Url Not Matched");
+	 System.out.println("Test Pass: Url Matched");
+  }
+  
+  public void verifyTitle()
+  {
+	  
+  }
+  
+}

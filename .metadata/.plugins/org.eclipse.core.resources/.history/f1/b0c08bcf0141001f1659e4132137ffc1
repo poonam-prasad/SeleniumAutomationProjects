@@ -1,0 +1,7 @@
+package com.MyTests;
+
+public class D03ReadFromExcel {
+
+	
+	String fPath=System.getProperty("user.dir") + "\\ExcelFiles\\LoginData";
+}

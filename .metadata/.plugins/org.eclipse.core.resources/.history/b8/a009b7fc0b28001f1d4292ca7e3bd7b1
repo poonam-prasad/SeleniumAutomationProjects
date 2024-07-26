@@ -1,0 +1,27 @@
+package com.Assignments;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class A07RedbusAssignment {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		WebDriver driver=new ChromeDriver();
+		driver.manage().window().maximize();
+		driver.get("https://www.redbus.in/");
+		driver.findElement(By.id("src")).sendKeys("kolh");
+		driver.findElement(By.xpath("//*[@id=\"autoSuggestContainer\"]/div/div[1]/div/div[1]/ul/li[1]/div/text")).click();
+		
+		driver.findElement(By.id("dest")).sendKeys("banga");
+		driver.findElement(By.xpath("//text[@class='placeHolderMainText'][normalize-space()='Bangalore']")).click();
+		
+		driver.findElement(By.id("onwardCal")).click();
+		driver.findElement(By.xpath("//span[@class='DayTiles__CalendarDaysSpan-sc-1xum02u-1 fgdqFw']")).click();
+		
+		
+	}
+
+}

@@ -1,0 +1,15 @@
+package com.InheritanceDemos;
+
+public class PolymorphismDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Employee emp; //Reference of base class
+		Manager m1=new Manager(123,"Kavita",50000,"Female",50000,0.5);  //Object of Child/Derived class
+		emp=m1;//Reference of base class can hold object of derived class known as Generic reference
+		System.out.println(emp);
+		
+
+	}
+
+}

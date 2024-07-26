@@ -1,0 +1,26 @@
+package com.ExceptionsDemo;
+
+import java.util.Scanner;
+
+public class ExceptionHandlingDemo1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int arr[]={1,2,3,4,5};
+		int index;
+		System.out.println("Enter any index");
+		Scanner scn=new Scanner(System.in);
+		index=scn.nextInt();
+		
+		try {
+		System.out.println(arr[index]);
+		}
+		
+		catch(ArrayIndexOutOfBoundsException ex)
+		{
+			System.out.println("ArrayIndexOutOfBoundsException is there, please enter index till 4");
+		}
+	}
+
+}

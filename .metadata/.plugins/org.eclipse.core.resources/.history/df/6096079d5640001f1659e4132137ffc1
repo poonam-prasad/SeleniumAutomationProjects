@@ -1,0 +1,13 @@
+package StarAgile3014.AutomationDevops3014;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+        System.out.println( "Hello World!" );
+    }
+}

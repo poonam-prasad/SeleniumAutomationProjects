@@ -1,0 +1,39 @@
+package com.InheritanceDemos;
+
+public class Employee {
+
+	public static void main(String[] args) 
+	
+	
+		// TODO Auto-generated method stub
+
+		private int empId;
+		String employeeName;
+		String gender;
+		double basicSalary;
+	
+
+	
+		public void displayData()
+		{
+			System.out.println("Employee id "+empId);
+			System.out.println("Emplayee Name "+employeeName);
+			System.out.println("gender "+gender);
+		}
+		
+		public double calSalary()
+		{
+			
+			double hra,da,pf,net;
+			hra=basicSalary*0.20;
+			da=basicSalary*0.50;
+			pf=basicSalary*0.05;
+			
+			net=da+hra-pf;
+			return net;
+		
+	}
+
+}
+
+

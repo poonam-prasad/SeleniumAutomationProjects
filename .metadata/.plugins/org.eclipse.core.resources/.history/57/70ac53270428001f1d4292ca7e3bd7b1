@@ -1,0 +1,20 @@
+package com.Assignments;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class A08_CheckboxHandling {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		WebDriver driver=new ChromeDriver();
+		driver.get("https://echoecho.com/");
+		
+		driver.findElement(By.linkText("Tutorials")).click();
+		driver.findElement(By.linkText("HTML")).click();
+		driver.findElement(By.linkText("HTML FORMS")).click();
+	}
+
+}

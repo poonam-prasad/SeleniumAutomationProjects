@@ -1,0 +1,13 @@
+package com.CRM.TestCases;
+
+import org.openqa.selenium.By;
+import org.testng.annotations.Test;
+
+public class LoginPageTestCase extends BaseClass {
+	
+	
+	
+  @Test (priority=1)
+  public void f() {
+  }
+}

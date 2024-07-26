@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.TestNG.D11WriteToExcel&apos; to &apos;D11WriteToExcelPoonam&apos;&#x0D;&#x0A;- Original project: &apos;SeleniumAutomationProject&apos;&#x0D;&#x0A;- Original element: &apos;com.TestNG.D11WriteToExcel&apos;&#x0D;&#x0A;- Renamed element: &apos;com.TestNG.D11WriteToExcelPoonam&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;D11WriteToExcel&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.TestNG{D11WriteToExcel.java[D11WriteToExcel" matchStrategy="1" name="D11WriteToExcelPoonam" qualified="false" references="true" similarDeclarations="false" stamp="1719495223861" textual="false" version="1.0"/>
+</session>

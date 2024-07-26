@@ -1,0 +1,17 @@
+package com.CRM.TestCases;
+
+import org.openqa.selenium.By;
+import org.testng.annotations.Test;
+
+import junit.framework.Assert;
+
+public class LoginPageTestCase extends BaseClass
+{
+  @Test
+  public void verifyLogin() 
+  {
+	  String url=lp.doLogin("test@gmail.com", "Test123");
+	  Assert.assertTrue(url.contains("customers"),"Test Fail: Login Fail");
+	  System.out.println();
+  }
+}

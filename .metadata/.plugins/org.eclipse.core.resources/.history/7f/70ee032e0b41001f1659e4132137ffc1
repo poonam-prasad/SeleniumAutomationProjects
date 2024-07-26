@@ -1,0 +1,19 @@
+package com.CRM.TestCases;
+
+import org.testng.annotations.Test;
+
+import com.CRM.Pages.HomePage;
+
+import org.testng.annotations.BeforeClass;
+
+public class BaseClass {
+	
+	HomePage hp=new HomePage();
+  @Test
+  public void f() {
+  }
+  @BeforeClass
+  public void beforeClass() {
+  }
+
+}

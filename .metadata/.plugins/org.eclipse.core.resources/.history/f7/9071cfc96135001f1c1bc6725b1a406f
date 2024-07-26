@@ -1,0 +1,26 @@
+package com.StepDef;
+
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+
+public class S01GoogleTitle {
+	
+	@Given("Open Google")
+	public void open_google() {
+	    System.out.println("Opening Google");
+	}
+
+	@When("I read title of the page")
+	public void i_read_title_of_the_page() {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+
+	@Then("Title should be Google")
+	public void title_should_be_google() {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+
+}

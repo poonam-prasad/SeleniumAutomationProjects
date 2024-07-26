@@ -1,0 +1,19 @@
+package com.CollectionsDemo;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class D01ListDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		List<String> studentName=new ArrayList<String>();
+		studentName.add("Poonam");
+		studentName.add("Amit");
+		studentName.add("Myra");
+		
+		System.out.println("Total no of students = "+studentName.size());
+	}
+
+}

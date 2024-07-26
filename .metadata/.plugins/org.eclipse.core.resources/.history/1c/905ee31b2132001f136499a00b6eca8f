@@ -1,0 +1,53 @@
+package com.ClassDemos;
+
+public class Employee {
+
+	private int empid;
+	private String empName;
+	private double basicSalary;
+	private String gender;
+	
+	
+	public Employee {
+		
+	}
+	public void setEmpId(int id) //Mutator function/Setter function
+	{
+		empid=id;
+	}
+	
+	public int getEmpId() //Accessor function/Getter function
+	{
+		return empid;
+	}
+	
+	public void setEmployeeData()
+	{
+		empid=100;
+		empName="Poonam";
+		basicSalary=50000;
+		gender="Male";
+	}
+	void displayData() //Facilitator function
+	{
+		System.out.println("Employee id: "+empid);
+		System.out.println("Employee Name: "+empName);
+		System.out.println("Basic Salary: "+basicSalary);
+		System.out.println("Gender: "+gender);
+	}
+	
+	double calculateSalary()
+	{
+		double da,hra,pf,net;
+		
+		da=basicSalary*0.50;
+		hra=basicSalary*0.20;
+		pf=basicSalary*0.05;
+		net=da+hra-pf;
+		
+		return net;
+	}
+
+	}
+
+
